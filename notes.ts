@@ -37,6 +37,19 @@ const substract = (a: number, b: number) => {
   a - b
 }
 
+// Destructuring with TypeScript.
+const todaysWeather = {
+  date: new Date(),
+  weather: 'sunny'
+}
+
+const logWeather = ({ date, weather }: { date: Date, weather: string }): void => {
+  console.log(date)
+  console.log(weather)
+}
+
+logWeather(todaysWeather)
+
 // Interfaces with classes.
 class Human {
   name: string
