@@ -18,7 +18,7 @@ We use `Type inference` *always*! Every time TypeScript can infer out type we sh
 
 ```Javascript
 const numbers = [1, 2, 3, 4]
-let foundNumber: boolean
+let foundNumber: boolean // <-- Here we declare but not initialize it, so we type the variable.
 
 for( let i = 0; i < numbers.length; i++ ) {
   if( numbers[i] === 1 ) {
