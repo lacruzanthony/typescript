@@ -30,6 +30,12 @@ const logNumber: (i: number) => void = (i: number) => {
 const add = (a: number, b: number): number => {
   return a + b
 }
+// This might fail because for TypeScript is returning void but we coded the
+// body function incorrectly. We have to type the return value as the example
+// above
+const substract = (a: number, b: number) => {
+  a - b
+}
 
 // Interfaces with classes.
 class Human {
