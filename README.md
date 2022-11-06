@@ -18,6 +18,11 @@ We use `Type inference` *always*! Every time TypeScript can infer out type we sh
 - We want a variable to have a type that can't be inferred.
 - A function returns the `any` type and we need to clarify the value.
 
+```Javascript
+const json = '{"x": 10, "y": 20}'
+const coordinates: {x: number; y: number} = JSON.parse(json) // { x: 10, y: 20 }
+```
+
 ## What `any` means?
 
 - `any` is a type, just as `string` or `boolean` are.
