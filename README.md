@@ -18,6 +18,12 @@ We use `Type inference` *always*! Every time TypeScript it able to infer out typ
 - We want a variable to have type that can't be inferred.
 - A function returns the `any` type and we need to clarify the value.
 
+## What `any` means?
+
+- `any` is a type, just as `string` or `boolean` are.
+- Means TS has no idea what this is - can't check for correct property references.
+- **avoid variables with `any` at all costs**
+
 ## Types
 
 The types in TypeScript are classified in two groups:
