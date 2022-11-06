@@ -15,6 +15,18 @@ TypeScript tries to figure out what type of value a variable refers to.
 We use `Type inference` *always*! Every time TypeScript can infer out type we should use it. `Type annotations` are used when:
 
 - We declare a variable on one line the initialize it later.
+
+```Javascript
+const numbers = [1,2,3,4]
+let foundNumber: boolean
+
+for( let i = 0; i < numbers.length; i++ ) {
+  if( numbers[i] === 1 ) {
+    foundNumber = true
+  }
+}
+```
+
 - We want a variable to have a type that can't be inferred.
 - A function returns the `any` type and we need to clarify the value.
 
