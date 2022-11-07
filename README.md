@@ -19,7 +19,7 @@ The types in TypeScript are classified in two groups:
 - symbol
 - null
 
-# Object types
+### Object types
 - functions
 - classes 
 - arrays
