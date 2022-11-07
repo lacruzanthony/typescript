@@ -1,16 +1,29 @@
 # Typescript
+
 This repo will contain TypeScript definition & examples where you might see my skills around this tool!
 
 ## Type annotations
+
 Code we add to tell TypeScript what type of value a variable will refer to.
 
 ## Type inference
+
 TypeScript tries to figure out what type of value a variable refers to.
 
+## Type annotations vs Type inference
+
+We use `Type inference` *always*! Every time TypeScript it able to infer out type we should use it. `Type annotations` are use when:
+
+- We declare a variable on one line the initialize it later.
+- We want a variable to have type that can't be inferred.
+- A function returns the `any` type and we need to clarify the value.
+
 ## Types
+
 The types in TypeScript are classified in two groups:
 
 ### Primitive types
+
 - number
 - boolean
 - void
@@ -20,7 +33,8 @@ The types in TypeScript are classified in two groups:
 - null
 
 ### Object types
+
 - functions
-- classes 
+- classes
 - arrays
 - objects
