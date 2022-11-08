@@ -1,6 +1,6 @@
 # Typescript
 
-This repo will contain TypeScript definition & examples where you might see my skills around this tool!
+This repo will contain TypeScript definitions & examples where you might see my skills around this tool!
 
 ## Type annotations
 
@@ -12,10 +12,10 @@ TypeScript tries to figure out what type of value a variable refers to.
 
 ## Type annotations vs Type inference
 
-We use `Type inference` *always*! Every time TypeScript it able to infer out type we should use it. `Type annotations` are use when:
+We use `Type inference` *always*! Every time TypeScript can infer out type we should use it. `Type annotations` are used when:
 
 - We declare a variable on one line the initialize it later.
-- We want a variable to have type that can't be inferred.
+- We want a variable to have a type that can't be inferred.
 - A function returns the `any` type and we need to clarify the value.
 
 ## What `any` means?
@@ -26,7 +26,7 @@ We use `Type inference` *always*! Every time TypeScript it able to infer out typ
 
 ## Types
 
-The types in TypeScript are classified in two groups:
+The types in TypeScript are classified into two groups:
 
 ### Primitive types
 
