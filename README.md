@@ -1,4 +1,4 @@
-# Typescript
+# TypeScript
 
 This repo will contain TypeScript definitions & examples where you might see my skills around this tool!
 
