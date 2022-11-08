@@ -1,4 +1,4 @@
-# Typescript
+# TypeScript
 
 This repo will contain TypeScript definitions & examples where you might see my skills around this tool!
 
@@ -27,7 +27,7 @@ const coordinates: {x: number; y: number} = JSON.parse(json) // { x: 10, y: 20 }
 
 - `any` is a type, just as `string` or `boolean` are.
 - Means TS has no idea what this is - can't check for correct property references.
-- **avoid variables with `any` at all costs**
+- **Avoid variables with `any` at all costs**
 
 ## Types
 
