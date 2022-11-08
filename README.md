@@ -22,7 +22,7 @@ We use `Type inference` *always*! Every time TypeScript can infer out type we sh
 
 - `any` is a type, just as `string` or `boolean` are.
 - Means TS has no idea what this is - can't check for correct property references.
-- **avoid variables with `any` at all costs**
+- **Avoid variables with `any` at all costs**
 
 ## Types
 
