@@ -84,3 +84,7 @@ Code we add to tell TypeScript what type of arguments a function will receive an
 ## Type inference for functions
 
 Typescript tries to figure out what type of value a function will return
+
+## Typed Arrays
+
+Arrays where each element is some consistent type of value
