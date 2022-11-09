@@ -13,7 +13,7 @@ const entity: Human = {
 const nothingMuch: null = null
 const nothing: undefined = undefined
 
-// Array
+// Arrays
 let colors: string[] = ['red', 'green', 'blue']
 let myNumbers: number[] = [1, 2, 3]
 
