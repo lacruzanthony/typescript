@@ -88,3 +88,20 @@ Typescript tries to figure out what type of value a function will return
 ## Typed Arrays
 
 Arrays where each element is some consistent type of value
+
+```JavaScript
+const weekDays = ['monday', 'saturday', 'friday']
+
+// Help with inference when extracting values
+const day = weekDays[0] // day: string
+const myFavDay = weekDays.pop() // day: string
+
+// Prevent incompatible values
+weekDays.push('This will throw an error') // We are pushing a string.
+
+// Help with map
+weekDays.map((day: string): string => {
+  return day.toUpperCase() // TS will help us to autocomplete de functions over day variable
+})
+
+```
