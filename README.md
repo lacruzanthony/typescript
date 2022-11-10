@@ -28,6 +28,18 @@ for( let i = 0; i < numbers.length; i++ ) {
 ```
 
 - We want a variable to have a type that can't be inferred.
+
+```Javascript
+const numbers = [-10, -20, -30]
+const numberAboveZero: number | boolean = false // Value cannot be inferred because we innitialize it as bool but then we assign a number type, so we use `|` pipe symbol to say that the variable can take two different types
+
+for(let i = 0; i < numbers.length; i++){
+  if(numbers[i] > 0){
+    numberAboveZero = numbers[i]
+  }
+}
+```
+
 - A function returns the `any` type and we need to clarify the value.
 
 ```Javascript
