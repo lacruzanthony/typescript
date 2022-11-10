@@ -31,7 +31,9 @@ for( let i = 0; i < numbers.length; i++ ) {
 
 ```Javascript
 const numbers = [-10, -20, -30]
-const numberAboveZero: number | boolean = false // Value cannot be inferred because we innitialize it as bool but then we assign a number type, so we use `|` pipe symbol to say that the variable can take two different types
+const numberAboveZero: number | boolean = false // Value cannot be inferred because we innitialize it 
+// as bool but then we assign a number type, so we use `|` pipe symbol to say that the variable can 
+// take two different types
 
 for(let i = 0; i < numbers.length; i++){
   if(numbers[i] > 0){
@@ -73,3 +75,11 @@ The types in TypeScript are classified into two groups:
 - classes
 - arrays
 - objects
+
+## Type annotations for functions
+
+Code we add to tell TypeScript what type of arguments a function will receive and what type of values it will return
+
+## Type inference for functions
+
+Typescript tries to figure out what type of value a function will return
