@@ -46,7 +46,8 @@ for(let i = 0; i < numbers.length; i++){
 
 ```Javascript
 const json = '{"x": 10, "y": 20}'
-const coordinates: {x: number; y: number} = JSON.parse(json) // { x: 10, y: 20 }
+const coordinates: {x: number; y: number} = JSON.parse(json) // Returns a any type because 
+// we are not describing the props of the object { x: 10, y: 20 }
 ```
 
 ## What `any` means?
