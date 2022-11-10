@@ -104,4 +104,14 @@ weekDays.map((day: string): string => {
   return day.toUpperCase() // TS will help us to autocomplete de functions over day variable
 })
 
+
+// Flexible types.
+const importantDates = [new Date(), '1994-02-24'] // const importantDates: (Date | string)[]
+const importantDates: (Date| string)[] = [new Date()] // adding explicity the type.
+
+importantDates.push('1994-03-24')
+importantDates.push(new Date())
+importantDates.push(100) // throw an error.
 ```
+
+**When to use typed arrays?**: any time we need to represent a collection of records with some arbitrary sort order.
